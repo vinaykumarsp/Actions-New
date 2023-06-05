@@ -1,5 +1,6 @@
 # Install the base requirements for the app.
 # This stage is to support development.
+#hi
 FROM --platform=$BUILDPLATFORM python:alpine AS base
 WORKDIR /app
 COPY requirements.txt .
